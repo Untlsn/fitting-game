@@ -1,0 +1,11 @@
+$signs: a, b, c, d, e, f, g, h, i, j, k, l;
+
+@each $sign in $signs {
+  .js-show-#{$sign} {
+    background: url('../icons/#{$sign}-ico.svg') center no-repeat;
+    background-color: #EEE;
+    &:hover {
+      background-color: #DDD;
+    }
+  }
+}

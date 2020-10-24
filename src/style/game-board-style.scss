@@ -1,0 +1,19 @@
+.game-board {
+  display: grid;
+  grid-template-columns:  repeat(6, 1fr);
+  grid-template-rows:     repeat(4, 1fr);
+  justify-content: center;
+  gap: 15px;
+
+  &__cell {
+    width:  100px;
+    height: 150px;
+
+    background-color: #AAA;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #999;
+    }
+  }
+}
