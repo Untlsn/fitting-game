@@ -1,6 +1,7 @@
 .win-screen {
   position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #222;
@@ -9,6 +10,24 @@
   font-size: 100px;
   font-weight: bold;
   color: white;
+
+  &__button {
+    font-size: 25px;
+    margin-top: 15px;
+    background-color: #00000033;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 15px;
+    outline: none;
+    &:hover {
+      background-color: #ffffff11;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: #ffffff11;    
+    }
+  }
 }
 
 .hide {

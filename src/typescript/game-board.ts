@@ -5,6 +5,10 @@ const fillBoard = async() => {
     board.innerHTML += `<div class="game-board__cell game-board__cell#${i}">`
 }
 export
+const clearBoard = async() => {
+  document.querySelector('.game-board')!.innerHTML = ''
+}
+export
 const winScreen = {
   hide: () => {
     document.querySelector('.win-screen')?.classList.add('hide')

@@ -1,14 +1,15 @@
 import 'regenerator-runtime/runtime'
-import { fillBoard, winScreen } from './game-board';
+import { fillBoard, winScreen, clearBoard } from './game-board';
 import { CartWrapper } from './carts-wrapper';
 
 
 
 const bootstrap = async() => {
+  clearBoard()
   winScreen.hide()
   fillBoard()
-  const cartWrapper = new CartWrapper()
+  new CartWrapper()
 }
 
-
+document.querySelector('.reload-button')?.addEventListener('click', bootstrap)
 bootstrap()
