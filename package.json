@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "parcel serve watch ./src/index.pug --port 8080",
-    "build": "parcel build ./src/index.pug"
+    "serve": "npx parcel serve watch ./src/index.pug --port 8080",
+    "build": "npx parcel build ./src/index.pug"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^4.1.10",
+    "parcel": "^1.12.4",
     "pug": "^3.0.0",
     "sass": "^1.27.0",
     "typescript": "^4.0.3"
