@@ -16,8 +16,11 @@ Building with [*Parcel*](https://github.com/parcel-bundler/parcel).
 ```Use 'npm i' only when parcel is not instaled```
 
 Game is ready to use in [**dist**](https://github.com/Untlsn/fitting-game) folder.
+
 Only require web browser with JavaScript support
-Game can be build and serve by parcel using:
+
+
+##### Game can be build and serve by parcel using:
 * For build
 ``` 
 npm run build 
@@ -28,6 +31,9 @@ npm run serve
 ```
 # Rules
 Game is simple and easy.
+
 First click on one of carts. The cart will turn over and show you its mark.
+
 Next click on another cart, it will turn over too and if cart mark is similar they say in reverse, else they turn over again.
+
 Game end when all carts is reversed.
