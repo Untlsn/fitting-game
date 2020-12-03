@@ -20,7 +20,7 @@ Game is ready to use in [**dist**](https://github.com/Untlsn/fitting-game) folde
 Only require web browser with JavaScript support
 
 
-##### Game can be build and serve by parcel using:
+#### Game can be build and serve by parcel using:
 * For build
 ``` 
 npm run build 
