@@ -1,5 +1,5 @@
 # Fitting Game
-__Fitting Game__ is a simple, asynchronous, and lightweight web game without canvas.
+[**Fitting Game**](https://untlsn.github.io/fitting-game/) is a simple, asynchronous, and lightweight web game without canvas.
 
 The game is to match cards by pictures to thyself
 # Usage technology
@@ -15,7 +15,7 @@ Building with [*Parcel*](https://github.com/parcel-bundler/parcel).
 # Getting Started
 ```Use 'npm i' only when parcel is not instaled```
 
-Game is ready to use in [**dist**](https://github.com/Untlsn/fitting-game) folder.
+Game is ready to use in [**dist**](https://github.com/Untlsn/fitting-game) folder or by [**github pages**](https://untlsn.github.io/fitting-game/).
 
 Only require web browser with JavaScript support
 
