@@ -3,18 +3,19 @@
 
 The game is to match cards by pictures to thyself
 # Usage technology
-Programing language [*TypeScript*](https://github.com/microsoft/TypeScript),
+Programing language [*TypeScript*](https://github.com/microsoft/TypeScript) v. 4.0.3,
 
-HTML preprocesor [*Pug*](https://github.com/pugjs),
+HTML preprocesor [*Pug*](https://github.com/pugjs) v. 3.0.0,
 
-CSS preprocesor [*SASS/**SCSS***](https://github.com/sass/sass)
+CSS preprocesor [*SASS/**SCSS***](https://github.com/sass/sass) v. 1.27.0,
 
-Building with [*Parcel*](https://github.com/parcel-bundler/parcel).
+Building with [*Parcel*](https://github.com/parcel-bundler/parcel) v. 1.12.4.
 
+## Require
+
+Because parcel with async function require [**regenerator-runtime**](https://www.npmjs.com/package/regenerator-runtime), they must be included
 
 # Getting Started
-```Use 'npm i' only when parcel is not instaled```
-
 Game is ready to use in [**dist**](https://github.com/Untlsn/fitting-game) folder or by [**github pages**](https://untlsn.github.io/fitting-game/).
 
 Only require web browser with JavaScript support
